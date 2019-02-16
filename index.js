@@ -7,5 +7,5 @@ function printBadges(array){
 }
 
 function tailsNeverFails(){
-  
+
 }
