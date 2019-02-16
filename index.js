@@ -10,6 +10,7 @@ function tailsNeverFails(){
   let r=Math.random()>=0.5
   while(r){
     tailCount++
+    r=Math.random()>=0.5
   }
   return `You got ${tailCount} tails in a row!`
 }
