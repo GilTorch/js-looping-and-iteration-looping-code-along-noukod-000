@@ -5,10 +5,10 @@ function printBadges(array){
   }
   return array
 }
-
+let tailCount=0
 function tailsNeverFails(){
   let r=Math.random()>=0.5
-  let tailCount=0
+
   if(r>=0.5){
     tailCount++
   }
