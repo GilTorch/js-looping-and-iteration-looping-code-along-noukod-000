@@ -5,9 +5,9 @@ function printBadges(array){
   }
   return array
 }
-let tailCount=0
-function tailsNeverFails(){
 
+function tailsNeverFails(){
+let tailCount=0
   while(Math.random()>=0.5){
     tailCount++
   }
